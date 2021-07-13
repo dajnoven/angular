@@ -1,0 +1,60 @@
+.questionnaire {
+  width: 260px;
+  padding: 20px;
+  margin: 20px auto;
+
+  background-color: #fff;
+}
+
+.input__item {
+  display: block;
+
+  width: 214px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ccc;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.input__item:focus {
+  outline: none;
+
+  border-color: #ef1414;
+}
+
+.btn {
+  display: block;
+  width: 260px;
+  padding: 10px;
+  color: #fff;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  border: 0;
+  border-radius: 10px;
+
+  background-color: #0f643d;
+
+  transition: background-color .2s linear;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #0bae2e;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #d9fc19;
+}

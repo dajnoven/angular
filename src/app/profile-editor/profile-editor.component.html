@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="questionnaire">
+      <form class="form" [formGroup]="profileForm">
+
+        <label for="first-name">Имя: </label>
+        <input class="input__item" id="first-name" type="text" formControlName="firstName">
+        <label for="last-name">Фамилия: </label>
+        <input class="input__item" id="last-name" type="text" formControlName="lastName">
+        <app-datepicker></app-datepicker>
+        <label for="email">Ваш e-mail: </label>
+        <input class="input__item" id="email" type="email" formControlName="userEmail">
+        <app-select></app-select>
+        <button class="btn" type="submit">Зарегистрироваться</button>
+      </form>
+
+    </div>
+</div>

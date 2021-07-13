@@ -1,0 +1,20 @@
+<h4>Выберите js-технологию</h4>
+<mat-form-field class="form__select" appearance="fill">
+  <mat-label>Js-технология</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let tech of techs" [value]="tech.value">
+      {{tech.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<h4>Выберите framework</h4>
+<mat-form-field class="form__select" appearance="fill">
+  <mat-label>Framework</mat-label>
+  <mat-select>
+    <mat-option *ngFor="let framework of frameWorks" [value]="framework.value">
+      {{framework.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+
